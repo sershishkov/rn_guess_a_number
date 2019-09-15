@@ -37,7 +37,6 @@ export default function App() {
 
   const startGameHandler = selectedNumber => {
     setUserNumber(selectedNumber);
-    // setGuessRounds(0);
   };
 
   const gameOverHandler = numOfRounds => {
